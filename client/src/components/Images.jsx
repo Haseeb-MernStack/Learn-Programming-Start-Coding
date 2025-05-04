@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Images = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Images
+export default Images;
