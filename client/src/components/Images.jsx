@@ -77,25 +77,72 @@ const images = [
     id: 13,
     title: "Github",
     image:
-      "https://imgs.search.brave.com/PrZUC2eslLmCBWhs7IyDNZoi8C6reEDdMqoTWQxQBnE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/NGM3YTMxN2FlYTky/OTEyMzkyYzA0MjAv/NjVhYWFjMTBjZWZi/MjE5MjRhNjI2OTJi/X2NsZXJrLXB1cnBs/ZS1sb2dvLnBuZw",
+      "https://imgs.search.brave.com/WxSN4C9MRwHxPIkzXl1NLAaQUgavJHU2X0oFl0e8OU4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzRhL0dpdEh1Yl9N/YXJrLnBuZw",
   },
   {
     id: 14,
     title: "Git",
     image:
-      "https://imgs.search.brave.com/PrZUC2eslLmCBWhs7IyDNZoi8C6reEDdMqoTWQxQBnE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/NGM3YTMxN2FlYTky/OTEyMzkyYzA0MjAv/NjVhYWFjMTBjZWZi/MjE5MjRhNjI2OTJi/X2NsZXJrLXB1cnBs/ZS1sb2dvLnBuZw",
+      "https://imgs.search.brave.com/APq7nMmzxFiAGHPfukG2NugbtLWpnAEAPdOglBHEApE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ3Zjk4MWNlZjEw/MTRjMGI1ZTQ4YmUu/cG5n",
   },
   {
     id: 15,
     title: "ChatGPT",
     image:
-      "https://imgs.search.brave.com/PrZUC2eslLmCBWhs7IyDNZoi8C6reEDdMqoTWQxQBnE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/NGM3YTMxN2FlYTky/OTEyMzkyYzA0MjAv/NjVhYWFjMTBjZWZi/MjE5MjRhNjI2OTJi/X2NsZXJrLXB1cnBs/ZS1sb2dvLnBuZw",
+      "https://imgs.search.brave.com/a4YTD6sUwgCwOvsO5Lglv4IJ8dYvmSSYIvwI07p5cqU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/M2M1MmFmNTkwMjUw/ZGQzNGJkNmE5YWIu/cG5n",
   },
   {
     id: 16,
     title: "Tailwind CSS",
     image:
-      "https://imgs.search.brave.com/Rl0QcUiKi2aWQhORQSgZmIdsT3o9UjOSUN-VwOmVc_Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2JhL1N0cmlwZV9M/b2dvLF9yZXZpc2Vk/XzIwMTYuc3Zn",
+      "https://imgs.search.brave.com/YTnhvxxkXrlR857u5Fz-jRDIlpDzkPWFyBP8WbC4z7c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y3JlYXRpdmUtdGlt/LmNvbS90d2NvbXBv/bmVudHMvaW1hZ2Vz/L2FwL3RhaWx3aW5k/LWxvZ28ucG5n",
+  },
+  {
+    id: 17,
+    title: "BootStrap",
+    image:
+      "https://imgs.search.brave.com/oY9AW9ZJYhpIMp_LX1bT7uIcWHDztJ6bhvmV51M0xKc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2Jvb3RzdHJh/cC1sb2dvLXBuZy1v/cGVuLTIwMDAucG5n",
+  },
+  {
+    id: 18,
+    title: "Imagekit io",
+    image:
+      "https://imgs.search.brave.com/rCN6zVwz2oIbKwzJ-qCe9eBJzX2GZh-MMJeBPBFwTPs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c29mdHdhcmV3b3Js/ZC5jby9hc3NldHMv/c29mdHdhcmUvbG9n/by9pbWFnZWtpdGlv/LmpwZw",
+  },
+  {
+    id: 19,
+    title: "Socket io",
+    image:
+      "https://imgs.search.brave.com/crOly_3RxXMTFHpUIJpaBEHd-jXghxd4jzIm_oIvhSQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/Lzk2L1NvY2tldC1p/by5zdmc",
+  },
+  {
+    id: 20,
+    title: "Cloudinary",
+    image:
+      "https://imgs.search.brave.com/O9oSfrKpVF3HODcetqGA-lv20lKA8l8zB82GlZCqJFs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cy52/LWNkbi5uZXQvNjAz/NjcwMy91cGxvYWRz/L3VzZXJwaWNzL01T/WUNXOTBKSFlFTi9u/MkRHMkU5TFZVS1lT/LnBuZw",
+  },
+  {
+    id: 21,
+    title: "Zod",
+    image:
+      "https://imgs.search.brave.com/qvQB62rh5yNPiu_-2TUG0Equci6A48BCDv4lGBmZqpg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9maWxl/cy5zdmdjZG4uaW8v/bG9nb3Mvem9kLnN2/Zw",
+  },
+  {
+    id: 22,
+    title: "Prisma",
+    image: "https://cdn.worldvectorlogo.com/logos/prisma-4.svg",
+  },
+  {
+    id: 23,
+    title: "Redux",
+    image:
+      "https://imgs.search.brave.com/3hnsVi10Ppu1tNeTwxrKnyhP4iAKIokHvdPHjsujTCE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MzA5YmNlZjEw/MTRjMGI1ZTRhOWEu/cG5n",
+  },
+  {
+    id: 24,
+    title: "Docker",
+    image:
+      "https://imgs.search.brave.com/HR0zaJRwAbtCuRslERa-kzywu4mXt87tBhnOdLqHnR8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYW5k/LWJyYW5kcy81MTIv/OTdfRG9ja2VyX2xv/Z29fbG9nb3MtNTEy/LnBuZw",
   },
 ];
 

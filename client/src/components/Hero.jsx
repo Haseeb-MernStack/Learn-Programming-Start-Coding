@@ -14,15 +14,20 @@ const Hero = () => {
         </div>
         {/* heading */}
         <h1 className="font-bold text-7xl mt-5 text-[#404258] tracking-tight">
-          Master Programming <span className="text-[#6B728E]">Skills</span>{" "}
-          <br /> with <span className="text-[#6B728E]">Real-World</span> Projects
+          Master Programming{" "}
+          <span className="text-[#6B728E] tracking-widest border-t border-dashed">
+            Skills
+          </span>{" "}
+          <br /> with <span className="text-[#6B728E]">Real-World</span>{" "}
+          Projects
         </h1>
         <h3 className="font-semibold text-2xl text-[#6B728E] underline mt-4 tracking-tight">
           Build, Learn, and Grow with Our Guided Coding Platform.
         </h3>
       </div>
       {/* Images component */}
-      <Images/>
+      <Images />
+      <hr className="border-t border-gray-300" />
     </div>
   );
 };
