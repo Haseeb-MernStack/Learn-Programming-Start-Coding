@@ -1,4 +1,5 @@
 import React from "react";
+import Images from "./Images";
 
 const Hero = () => {
   return (
@@ -12,14 +13,16 @@ const Hero = () => {
           <p class="pr-3">let's start your journey.</p>
         </div>
         {/* heading */}
-        <h1 className="font-bold text-7xl mt-5 text-gray-800 tracking-tight">
-          Master Programming <span className="text-gray-600">Skills</span>{" "}
-          <br /> with <span className="text-gray-600">Real-World</span> Projects
+        <h1 className="font-bold text-7xl mt-5 text-[#404258] tracking-tight">
+          Master Programming <span className="text-[#6B728E]">Skills</span>{" "}
+          <br /> with <span className="text-[#6B728E]">Real-World</span> Projects
         </h1>
-        <h3 className="font-semibold text-2xl text-gray-500 underline mt-4 tracking-tight">
+        <h3 className="font-semibold text-2xl text-[#6B728E] underline mt-4 tracking-tight">
           Build, Learn, and Grow with Our Guided Coding Platform.
         </h3>
       </div>
+      {/* Images component */}
+      <Images/>
     </div>
   );
 };
