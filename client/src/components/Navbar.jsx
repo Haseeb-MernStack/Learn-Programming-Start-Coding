@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <nav className="h-[70px] relative w-full px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between z-20 bg-white text-[#404258] shadow-[0px_4px_25px_0px_#0000000D] transition-all">
       <Link to="/">
-        <h1 className="font-bold text-xl text-[#404258] tracking-widest">Learn Programming</h1>
+        <h1 className="font-bold text-xl text-[#404258] tracking-widest">
+          Learn Programming
+        </h1>
       </Link>
 
       <ul className="md:flex hidden items-center gap-10">
@@ -23,17 +25,17 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
-            MernStack
+          <a className="hover:text-gray-500/80 transition" href="/languages">
+            Languages
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
+          <a className="hover:text-gray-500/80 transition" href="/contact">
             Contact
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-500/80 transition" href="#">
+          <a className="hover:text-gray-500/80 transition" href="/about">
             About
           </a>
         </li>
