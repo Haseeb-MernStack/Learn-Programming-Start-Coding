@@ -7,6 +7,7 @@ import PageNotFound from "./components/PageNotFound";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Languages from "./components/Languages";
+import LanguageDetails from "./components/LanguageDetails";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/languages" element={<Languages />} />
         <Route path="/tech" element={<Tech />} />
         <Route path="/learn/:tech" element={<LearnPage />} />
+        <Route path="/languages/:id" element={<LanguageDetails />} />
       </Routes>
     </>
   );
