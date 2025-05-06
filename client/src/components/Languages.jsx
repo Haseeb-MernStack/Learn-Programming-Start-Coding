@@ -106,8 +106,6 @@ const filterTypes = ["All", "Frontend", "Backend", "Both", "DB", "Tool"];
 const Languages = () => {
   const [filter, setFilter] = useState("All");
   const navigate = useNavigate();
-  const ids = languages.map(item => item.id);
-  
 
   const filteredLanguages =
     filter === "All"
@@ -147,7 +145,7 @@ const Languages = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 30 }}
-                onClick={() => navigate(`/languages/${ids}`)}
+                onClick={() => navigate(`/languages/${lang.id}`)}
                 transition={{ duration: 0.3, delay: idx * 0.05 }}
                 className="border rounded-2xl p-5 shadow hover:shadow-xl transition"
               >
