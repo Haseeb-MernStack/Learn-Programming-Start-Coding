@@ -3,6 +3,7 @@ import Images from "./Images";
 import Tech from "./pages/Tech";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Testimonial from "./Testimonial";
 
 const Hero = () => {
   return (
@@ -34,6 +35,8 @@ const Hero = () => {
       </div>
       <hr className="border-t border-gray-300" />
       <Tech />
+      <hr className="border-t border-gray-300" />
+      <Testimonial />
       <hr className="border-t border-gray-300" />
       <Footer />
     </>

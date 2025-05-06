@@ -43,10 +43,10 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-lg text-gray-800">COMPANY</p>
+          <p className="text-lg font-semibold text-gray-800">References</p>
           <ul className="mt-3 flex flex-col gap-2 text-sm">
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
               <a href="#">Careers</a>
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="text-lg text-gray-800">SUPPORT</p>
+          <p className="text-lg font-semibold text-gray-800">Support</p>
           <ul className="mt-3 flex flex-col gap-2 text-sm">
             <li>
               <a href="#">Help Center</a>
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className="max-w-80">
-          <p className="text-lg text-gray-800">STAY UPDATED</p>
+          <p className="text-lg font-semibold text-gray-800">Stay Updated</p>
           <p className="mt-3 text-sm">
             Subscribe to our newsletter for inspiration and special offers.
           </p>
@@ -120,7 +120,9 @@ const Footer = () => {
       </div>
       <hr className="border-gray-300 mt-8" />
       <div className="flex flex-col md:flex-row gap-2 items-center justify-between py-5">
-        <p>© {new Date().getFullYear()} Brand. All rights reserved.</p>
+        <p>
+          © {new Date().getFullYear()} Haseeb MernStack. All rights reserved.
+        </p>
         <ul className="flex items-center gap-4">
           <li>
             <a href="#">Privacy</a>
